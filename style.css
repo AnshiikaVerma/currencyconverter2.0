@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom right,#ab92bf,#afc1d6);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  background-color: #cef9f2;
+  
+
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.select-boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.select-boxes select {
+  width: 45%;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #f8f8f8;
+}
+
+.select-boxes span {
+  font-size: 22px;
+  color: #444;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 30px;
+  font-size: 16px;
+  border: 30px;
+  border-radius: 8px;
+
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #222;
+  background-color: #d6ca98;
+  padding: 10px;
+  text-align: center;
+
+
+}.button{
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+  font-size: 16px;
+  border: 10px;
+  border-radius: 8px;
+
+  cursor: pointer;
+  transition: background 0.3s ease;
+
+}.share-buttons {
+  margin-top: 20px;
+}
+
+.share-buttons a {
+  margin-right: 10px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #444;
+}
+
+.share-buttons i {
+  margin-right: 5px;
+}
