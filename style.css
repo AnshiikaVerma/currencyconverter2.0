@@ -9,17 +9,23 @@ body {
   background: linear-gradient(to bottom right,#ab92bf,#afc1d6);
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+  }
 
 .container {
   width: 100%;
-  max-width: 500px;
+  max-width: 800px;
+  margin:0 auto ;
   padding: 20px;
   background-color: #cef9f2;
-  
-
+  display: flex;
+  flex-wrap: wrap;
+}
+.box{
+flex:1 1 300px;
+margin:10px;
 }
 
 .card {
@@ -31,7 +37,7 @@ body {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 2em;
   color: #222;
   margin-bottom: 20px;
 }
@@ -122,4 +128,27 @@ footer {
 
 .share-buttons i {
   margin-right: 5px;
+}
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;
+  }
+
+  .select-boxes {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .select-boxes select {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
 }
